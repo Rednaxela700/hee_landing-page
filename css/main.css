@@ -9,4 +9,24 @@ body {
   font-size: 16px;
 }
 
+.header-container {
+  display: flex;
+  width: 1200px;
+  height: 135px;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-img {
+  display: block;
+  height: 80px;
+}
+.header-user-container {
+  display: flex;
+  justify-content: space-around;
+}
+.header-user-list-item {
+  padding: 1rem;
+  list-style: none;
+}
+
 /*# sourceMappingURL=main.css.map */
