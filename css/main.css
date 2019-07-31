@@ -67,10 +67,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .header-user-link, .header-user-icon {
   padding: 0 1rem;
-  text-decoration: none;
   color: #000;
   cursor: pointer;
 }
