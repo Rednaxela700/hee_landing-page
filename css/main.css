@@ -140,4 +140,56 @@ body {
   color: #fff;
 }
 
+.nav {
+  width: 100vw;
+  background-color: #000;
+}
+.nav-flex-list-container {
+  display: flex;
+  height: 60px;
+  width: 1200px;
+  background-color: #000;
+  padding: 0 2rem;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-flex-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  position: relative;
+  height: 100%;
+  color: #fff;
+  text-transform: uppercase;
+}
+.nav-flex-list-item:hover > .nav-list-container {
+  display: block;
+}
+.nav-flex-icon-container {
+  display: inline-block;
+  margin: 0 0.2rem;
+}
+.nav-flex-icon-container > .fa-angle-down {
+  color: #fc5325;
+}
+.nav-list-container {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  list-style: none;
+  z-index: 2;
+}
+.nav-list-item {
+  background-color: #000;
+  padding: 1rem 0.5rem;
+}
+.nav-list-link {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=main.css.map */
