@@ -117,7 +117,6 @@ body {
   display: flex;
   width: 170px;
   height: 50px;
-  margin: 0 0 0 0.5rem;
   justify-content: center;
   align-items: center;
   background-color: black;
@@ -125,9 +124,10 @@ body {
   cursor: pointer;
 }
 .header-user-btn span {
+  display: block;
+  margin: auto;
   font-weight: bold;
   text-align: center;
-  width: 100%;
 }
 .header-user-btn-cart {
   justify-self: flex-end;
